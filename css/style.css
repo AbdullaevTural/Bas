@@ -47,68 +47,33 @@ table {
 	border-spacing: 0;
 }
 
-/* open-sans-regular - latin_cyrillic */
+/* lato-regular - latin */
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/open-sans-v28-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans-v28-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* open-sans-600 - latin_cyrillic */
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: local(''),
-         url('../fonts/open-sans-v28-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans-v28-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* open-sans-700 - latin_cyrillic */
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''),
-         url('../fonts/open-sans-v28-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans-v28-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* open-sans-800 - latin_cyrillic */
-  @font-face {
-    font-family: 'Open Sans';
-    font-style:  Extra Bold;
-    font-weight: 800;
-    src: local(''),
-         url('../fonts/open-sans-v28-latin_cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans-v28-latin_cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-
-    /* TippyToes-700  */
-    @font-face {
-        font-family: 'TippyToes';
-        font-style: bold;
-        font-weight: 700;
-        src: local(''),
-             url('../fonts/TippyToes Bold.ttf') format('ttf'), 
-      }
-      /* TippyToes-800  */
-    @font-face {
-        font-family: 'TippyToes';
-        font-style: bold;
-        font-weight: 800;
-        src: local(''),
-             url('../fonts/TippyToes Bold.ttf') format('ttf'), 
-      }
-
-     /* TippyToes X-tra Bold*/
-     @font-face {
-        font-family: 'TippyToes X-tra Bold';
-        font-style: bold;
-        font-weight: 800;
-        src: local(''),
-             url('../fonts/TippyToes X-tra Bold.ttf') format('ttf'), 
-      }
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/lato-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/lato-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   /* lato-700 - latin */
+   @font-face {
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 700;
+     src: local(''),
+          url('../fonts/lato-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/lato-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   /* lato-900 - latin */
+   @font-face {
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 900;
+     src: local(''),
+          url('../fonts/lato-v22-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/lato-v22-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
 html {
         font-family: sans-serif;
         line-height: 1.15;
@@ -117,4 +82,11 @@ html {
       box-sizing: inherit;
   }
   
- 
+ .wrapper {
+      max-width: 1060px;
+      margin: 0,auto;
+ }
+
+ .header {
+      background-color: black;
+ }
