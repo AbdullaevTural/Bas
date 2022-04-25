@@ -363,8 +363,8 @@ html {
      font-style: normal;
      font-weight: 400;
      src: local('Lato Regular'), local('Lato-Regular'),
-          url('../fonts/lato-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('../fonts/lato-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+          url('../fonts/lato-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/lato-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
    }
    /* lato-700 - latin */
    @font-face {
@@ -372,8 +372,8 @@ html {
      font-style: normal;
      font-weight: 700;
      src: local('Lato Bold'), local('Lato-Bold'),
-          url('../fonts/lato-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('../fonts/lato-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+          url('../fonts/lato-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/lato-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
    }
    /* lato-900 - latin */
    @font-face {
@@ -381,8 +381,8 @@ html {
      font-style: normal;
      font-weight: 900;
      src: local('Lato Black'), local('Lato-Black'),
-          url('../fonts/lato-v15-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('../fonts/lato-v15-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+          url('../fonts/lato-v22-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/lato-v22-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
    }
 /**
  * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
@@ -400,7 +400,7 @@ html {
   }
 
   body{
-       font-family: Lato;
+       font-family: 'Lato';
        font-style: normal;
        font-size: 14px;
        line-height: 1.2;
@@ -634,8 +634,8 @@ html {
      background: url(../img/svg/arrow-r-icon.svg) no-repeat right center;
 }
 
-.places_view:focus, .benefits_card_more:hover{
-     opacity: .65 ;
+.places_view:focus, .places_view:hover{
+     opacity: 0.65 ;
 }
 
 .places_cards{
@@ -706,3 +706,49 @@ html {
      z-index: 4;
 }
  /*places end*/
+ 
+ /*tours start*/
+.tours{
+     margin-bottom:139px;
+}
+
+.tours_tour{
+     display: grid;
+     grid-template-columns:repeat(2, 1fr) ;
+     grid-gap: 108px;
+     align-items: center;
+     margin-bottom: 77px;
+}
+
+.tour_title{
+     font-weight: 500;
+     font-size: 30px;
+     line-height: 40px;
+     color: #102746;
+     margin-bottom: 85px;
+}
+
+.tour_desc{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     margin-bottom: 56px;
+ }
+ 
+.tour_more{
+     font-size: 16px;
+     color: #006DFE;
+     text-decoration: none;
+     padding-right: 59px;
+     background: url(../img/svg/arrow-r-icon.svg) no-repeat right center;
+ }
+
+.tour_more:focus, .tour_more:hover{
+     opacity: 0.65 ;
+}
+
+.tours_info{
+     padding-left: 47px;
+}
+
+ /*tours end*/
